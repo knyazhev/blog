@@ -1,3 +1,9 @@
-footer{
+footer {
     text-align: center;
+}
+.article{
+    text-align: center;
+}
+.admin-table{
+    width:100%
 }
