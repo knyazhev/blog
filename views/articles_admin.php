@@ -29,7 +29,7 @@
                             <a href="index.php?action=delete&id=<?=$a['id']?>">Delete</a>
                         </td>
                     </tr>
-                    <?php endfroeach?>
+                    <?php endforeach?>
                 </table>
                 
                 

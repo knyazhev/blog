@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf8">
@@ -15,9 +15,9 @@
                 <div class='article'>
                     <h3><a href="article.php?id=<?=$a['id']?>"><?=$a['title']?></a> </h3>
                     <em>Опубликовано: <?=$a['date']?> </em>
-                    <p><?$=$article_intro($a['content'])?></p>
+                    <p><?=$article_intro($a['content'])?></p>
                 </div>
-                <?php endfroeach?>
+                <?php endforeach?>
             </div>
             <footer>
                 <p>My frist blog <br> Copyright $copy; 2015</p>
