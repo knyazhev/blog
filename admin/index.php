@@ -14,7 +14,7 @@ if($action=="add"){
         article_new($link,$_POST['title'],$_POST['date'],$_POST['content']);
         header('Location: index.php');
     }
-    include("../views/article_admin,php");
+    include("../views/article_admin.php");
 }else if($action=="edit"){
     if(!isset($_GET['id']))
         header("Location:index.php");
@@ -33,7 +33,7 @@ if($action=="add"){
 }
 
 else{
-    $article=articles_all($link);
+    $articles=articles_all($link);
     include('../views/article_admin.php');
 }
 
