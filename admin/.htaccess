@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Admin Panel"
-AuthUserFile C:\Users\КняжевГА\Desktop\www\blog\admin\ht.passwd
-Require valid-user

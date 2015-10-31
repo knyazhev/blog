@@ -13,21 +13,21 @@
                 <form method="post" action ="index.php?action=<?=$_GET['action']?>&id=<?=$_GET['id']?>">
                     <label>
                        Title
-                        <input type="text" name = "title" value="<?=$article['title']?>" class="form-item" autofocus required>
+                        <input type="text" name = "title" value="<?=$articles['title']?>" class="form-item" autofocus required>
                     </label>
                     <label>
                          Date
-                        <input type="date" name="date" value = "<?=$article['date']?>" class="form-item" required>
+                        <input type="date" name="date" value = "<?=$articles['date']?>" class="form-item" required>
                     </label>
                     <label>
                         Content
-                        <textarea class="form-item" name="content" required><?=$article['content']?></textarea>
+                        <textarea class="form-item" name="content" required><?=$articles['content']?></textarea>
                     </label>
                     <input type="submit" value="Save" class="btn">
                 </form>
             </div>
             <footer>
-                    <p>My frist blog <br> Copyright $copy; 2015</p>
+                    <p>My frist blog <br> Copyright &copy; 2015</p>
                 </footer>
         </div>
     </body>
